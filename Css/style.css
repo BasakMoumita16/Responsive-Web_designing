@@ -1,0 +1,62 @@
+
+
+
+.Box{
+
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (min-width: 0px) and ( max-width:300px){
+
+
+  body
+  {
+      background: red;
+  }   
+
+   #small {
+    text-align: end;
+
+    flex-direction: column;}
+
+ }
+    
+  
+   
+ @media screen and (min-width: 300px) and ( max-width:768px)
+ {
+body {
+
+    background: green;
+}
+  #small {
+
+    flex-basis: 67%;
+
+  } 
+
+  #large {
+
+    flex-basis: 100%
+  }
+  
+  #medium {
+        display: flex;
+        flex-direction: column;
+        text-align: end;
+
+    }
+}
+
+ @media screen and (min-width: 768px) {
+    
+body{
+    flex-direction: row;
+    background: blue;
+}
+#large {
+    display: flex;
+    text-align: end;}
+  
+}
